@@ -24,6 +24,7 @@ public class JabberPointApplication {
 	    try {
 	      if (args.length == 0) {
 	        Accessor.getDemoAccessor().loadFile(presentation, "");
+
 	      } else {
 	        new XMLAccessor().loadFile(presentation, args[0]);
 	      }

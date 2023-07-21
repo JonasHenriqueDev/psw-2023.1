@@ -21,7 +21,7 @@ import java.io.IOException;
 
 import javax.swing.JOptionPane;
 
-public class MenuController extends MenuBar {
+public class  MenuController extends MenuBar {
 
   private static final long serialVersionUID = 227L;
   
